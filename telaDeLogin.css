@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url(download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+div{ background-color: rgba(0,0, 0, 1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+}
+input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    width: 100%;
+    
+}
+button{
+    background-color: red;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 15px;
+    color: white;
+    font-size: 15px;   
+    cursor: pointer;
+}
