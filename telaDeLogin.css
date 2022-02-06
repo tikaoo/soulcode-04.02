@@ -22,7 +22,7 @@ input{
     border: none;
     outline: none;
     font-size: 15px;
-    width: 100%;
+    width: 80%;
     
 }
 button{
@@ -34,4 +34,7 @@ button{
     color: white;
     font-size: 15px;   
     cursor: pointer;
+}
+legend {
+    font-size: 30px;
 }

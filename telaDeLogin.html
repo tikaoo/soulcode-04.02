@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="telaDeLogin.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="telaDeLogin.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <div>
-        <h1>Registro</h1>
-        <input type="text" placeholder="Nome"> <br><br>
-        <input type= "text" placeholder="xxx.xxx.xxx.-xx" minlength="12" maxlength="12"> <br><br>
-        <input type="email" placeholder="Usuário"> <br><br>
-        <input type="password" placeholder="Senha"><br><br>
-        <select name="estado">
+      <form action="">
+        <fieldset>
+          <legend>Registro</legend>
+          <input type="text" placeholder="Nome" /> <br /><br />
+          <input
+            type="text"
+            placeholder="xxx.xxx.xxx.-xx"
+            minlength="12"
+            maxlength="12"
+          />
+          <br /><br />
+          <input type="email" placeholder="Usuário" /> <br /><br />
+          <input type="password" placeholder="Senha" /><br /><br />
+          <select name="estado">
             <option selected="" value="">Selecione o Estado (UF)</option>
             <option value="Acre">Acre</option>
             <option value="Alagoas">Alagoas</option>
@@ -42,11 +50,13 @@
             <option value="Santa Catarina">Santa Catarina</option>
             <option value="São Paulo">São Paulo</option>
             <option value="Sergipe">Sergipe</option>
-            <option value="Tocantins">Tocantins</option> 
-            </select> <br><br>
-        <button>Entrar</button> <br><br>
-        <footer> Site Criado por Patrick Cavalcante Gomes</footer>
+            <option value="Tocantins">Tocantins</option>
+          </select>
+          <br /><br />
+          <button>Entrar</button> <br /><br />
+          <footer>Site Criado por Patrick Cavalcante Gomes</footer>
+        </fieldset>
+      </form>
     </div>
-    </body>
-    
+  </body>
 </html>
